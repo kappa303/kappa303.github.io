@@ -1,0 +1,248 @@
+/*  Name: Karen Pascual
+    Assignment: 
+
+*/
+*{
+    font-family: "Helvetica", "Arial",sans-serif;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-11/nat1034.ani), url(http://cur.cursors-4u.net/nature/nat-11/nat1034.gif);
+  
+}
+
+body{background-color: #f7ede2;
+    
+}
+
+
+/*  layout for master div
+    ===Use for all pages======
+    div that holds image and text
+    not the body*/
+.masterDiv{background-color: #DECFD8;
+    width: 600px;
+    height: 470px;
+    border-radius: 20px;   
+    /*margin allows div to auto center */
+    margin: auto;
+    padding: 0px;
+}
+
+
+/* homepage image div 
+===use only on homepage====
+image is placed in css
+within master div*/
+.homepageImgDiv{
+    content: url(../images/homePage.png);
+    margin-top: 90px;
+    margin-bottom: -30px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+/*center button for homepage
+*/
+.centerBtn{
+    margin-top: -30px;
+  background-color: #555;
+  color: white;
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.homepageFooter{ font-family: 'Courier';
+    color:#14213d;
+    font-size:10px;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 2px 2px 5px #457b9d;
+    text-align: center;
+    margin-top: 30px}
+
+.firstoptions{ content: url(../images/01option.png);
+    margin-top: 90px;
+    margin-bottom: -30px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.gameOver{content: url(../images/gameOver.png);
+    margin-top: 90px;
+    margin-bottom:0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.gameOverButton{
+  background-color: #555;
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.walk{content: url(../images/portal.png);
+    margin-top: 90px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.walkh{
+    text-indent: 10px;
+    font-size: 15px;
+    font-family: 'Courier';
+    color: yellow;
+    font-weight: bolder;
+    line-height: 2.0;
+    font-style:normal;
+    margin-top: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+        text-shadow: 2px 2px 5px #457b9d;
+}
+
+.secondOptionsImg{content: url(../images/02option.png);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.run{content: url(../images/gameOver.png);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.book{content: url(../images/03read.png);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.mrsbottomfield{content: url(../images/mrBottomfield.png);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.theyConverse{content: url(../images/conversation.png);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.final{content: url(../images/apology.png);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+    
+/*master h1
+===use for all pages====*/
+h1{
+    text-indent: 10px;
+    font-size: 15px;
+    font-family: 'Courier';
+    color: #000000;
+    font-weight: bolder;
+    line-height: 2.0;
+    font-style:normal;
+    margin-top: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+        text-shadow: 2px 2px 5px #457b9d;
+}
+
+
+.text{ width: 600px;
+    height: auto;
+    margin: 0px;
+    
+    
+}
+
+
+/*center button for homepage
+*/
+.centerBtn{
+  background-color: #555;
+  color: white;
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.bottomCenterBtn{
+  position: absolute;
+  background-color: #555;
+       margin-left:
+    
+  color: white;
+  font-size:20px;
+  padding: 07px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.leftBtn{ 
+  margin-left: 35%;
+  margin-right: 0;
+  background-color: #555;
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+
+.rightBtn{
+  
+  background-color: #555;
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  
+}
