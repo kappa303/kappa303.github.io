@@ -1,0 +1,288 @@
+ @font-face{src:url('Hind Vadodara');
+        font-family: 'Hind Vadodara', sans-serif;
+            
+        }
+        *{font-family: 'Hind Vadodara'}
+        h1{
+            font-size: 2rem;
+        }
+        h2{color: white;
+           
+        }
+        
+        h3{font-weight: 500px;
+            font-size: 1.5rem;
+            
+        }
+        
+        h4{
+            font-size: 110%;
+            margin-left: 8%;
+        }
+        
+        h6{
+            color: white;
+            font-size: 19px;
+            margin-left: 6.5rem;
+            margin-top: -.5rem;
+        }
+        
+        
+            
+    /*NAV DIV
+     holds everything in nav*/
+    .navSection{background-color: #E61523;
+    width: 100%; 
+    height: rem;
+    margin-top:-35px;
+    margin-right: ;
+    padding: ;
+        }
+
+
+    /* MINISO LOGO DIV*/
+    .icon{
+    content: url(../images/logo01.png);
+    text-align: center;
+    align-content: center;
+    width:17rem;
+    height: auto;
+    background-repeat: no-repeat;  
+    }
+    
+    
+    /*NAV ICONS DIV*/
+    #navIcon{
+        text-align:right;
+        
+        }
+        
+    /* NAV ICONS FONTAWSOME CSS */    
+    .fas{
+        font-size: 30px;
+        color: white;
+        padding: .5rem; 
+    }
+    
+    /*NAV ICON FONTAWSOME HOVER*/
+    .fas:hover{
+            text-shadow: 1.5px 1.5px #DBD3D8;
+            color: white;
+            cursor: pointer;
+        }
+        
+        
+    /*NAV LINK BLOCK*/ 
+        nav{
+        margin-top: -5rem;
+        text-align: center;
+        font-size: 25px;
+        }
+    /* NAV LINKS DEFAULT*/
+        nav a {
+            
+            display: inline-block;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            content: center;
+            margin: auto;
+            
+        }
+    /*HOVERING ON NAV LINKS*/
+        nav a:hover {
+         text-shadow: 1px 1px #DBD3D8;
+            color: white;
+        }
+        
+    /*VISIED LINKS*/
+        .nav a:visited{
+           
+        }
+      
+/*BANNER IMAGE DIV */
+.homepageImgDiv{
+    content: url(../images/homepageBanner.svg);
+    padding-top: 3%;
+    margin-top:;
+    margin-bottom: -30px;
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+        
+    
+/*INSTAGRAM DIVS AND IMAGES*/
+                
+.instaDiv{background-color: white;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;   
+    margin: auto;
+    vertical-align: inherit;
+    
+}
+.secondinstaDiv{background-color: white;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;   
+    margin-top: 2%;
+    vertical-align: inherit;
+    padding-top:13%;
+}
+    .firstLeft{
+    content: url(../images/foodImage1.jpg);
+    width: 20%;
+    height: auto;
+    margin-top: auto;
+    vertical-align: inherit;
+    padding: 5px;
+    
+}
+ 
+  .firstCenter{
+    content: url(../images/foodImage02.jfif);
+    width: 21%;
+    height: auto;
+    margin-top: auto;
+    padding: 5px;
+   
+    
+}
+
+        .firstright{
+         content: url(../images/foodImage03.jpeg);
+    width: 20%;
+    height: auto;
+    margin-top: auto;
+             vertical-align: inherit;
+            padding: 5px;
+  
+            
+        }
+        .firstEnd{
+         content: url(../images/foodImage04.jpeg);
+    width: 20.5%;
+    height: auto;
+    margin-top: auto;
+             vertical-align: inherit;
+            padding: 0px;
+            
+        }
+        
+       .secondLeft{
+    content: url(../images/foodImage05.jpeg);
+    width: 20%;
+    height: auto;
+    margin-top: auto;
+    vertical-align: inherit;
+    padding: 5px;
+    
+}
+         .secondCenter{
+    content: url(../images/foodImage06.jpg);
+    width: 20%;
+    height: auto;
+    margin-top: auto;
+    vertical-align: inherit;
+    padding: 5px;
+    
+}
+          .secondRight{
+         content: url(../images/foodImage07.jpg);
+    width: 20%;
+    height: auto;
+    margin-top: auto;
+             vertical-align: inherit;
+            padding: 5px;
+        }
+          .secondEnd{
+         content: url(../images/foodImage08.jpeg);
+    width: 20%;
+    height: auto;
+    margin-top: auto;
+             vertical-align: inherit;
+            padding: 6px;
+  
+            
+        }
+
+
+        
+    /* NAV ICONS FONTAWSOME CSS */    
+    .fas other{
+        font-size: 30px;
+        color: white;
+        padding: .5rem; 
+    }
+
+    .centerBtn{
+    
+  background-color: #E61523;
+  color: white;
+  font-size: 20px;
+  padding: ;
+  border: none;
+  border-radius: 2px;
+}
+
+    
+.zipcode{
+    text-align: center;
+    background-color: #E61523;
+  color: white;
+    padding-bottom: 4px;
+    width: 25%;
+    height: auto;
+  border-radius: 2px;
+ 
+}
+       
+.map{
+    text-align: right;
+    content: url(../images/map.png);
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+             vertical-align: inherit;
+            padding: 6px;      
+        }
+
+ #mostpurchased {
+     
+     line-height: 1.6;
+     display: grid;
+     grid-template-columns: 30% 30% ;
+     grid-row-gap: 3%;
+     margin-top: -10px;
+     margin-bottom: 4%;
+     margin-left: 30%;
+ }
+ /* shop style css */
+ #itemselection {
+     line-height: 1.6;
+     display: grid;
+     grid-template-columns: 32% 32% 32% ;
+     grid-row-gap: 3%;
+     margin-bottom: 10px;
+     margin-left: auto;
+ }
+.about {
+    font-size: 150pt;
+    color:#666666;
+    padding:-35;
+}
+
+/*DIV FOR WORD KITCHEN*/
+.kitchenDiv{background-color:#E61523;
+    width: 110%;
+    height: 85%;
+    margin-top: 0px;
+    vertical-align: inherit;
+    
+}
+        
