@@ -1,0 +1,107 @@
+
+/* 
+Name:Karen Pascual
+Lab: Basics of Layout
+=== Do not change CSS below === 
+*/
+
+body {
+    background-color: darkgray;
+    font-size: 14pt;
+    font-family: 'Helvetica', sans-serif;
+    color: #444;
+    padding: 150px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+button {
+    background-color:#c15c5c;
+    padding: 15px;
+    color: white;
+    border: 0;
+    font-size: 20pt;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ===== Add new CSS below ===== */
+
+h1{
+    font-family: 'Lobster', cursive;
+    }
+
+h2{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.fav{
+    font-size: 24pt;
+    color: white;
+}
+
+.floatimage{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#books{
+    width: 400px;
+    float: left;
+    margin-top: -19px;
+}
+
+events{
+    width: 400px;
+    float: right;
+
+    
+}
+
+footer{
+    clear: both;
+}
+
+#book-icon{
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 10px;
+
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#subscribe{
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 400px;
+    margin-top: -230px;
+    margin-left: 50%
+    
+}
+    
+
+
+

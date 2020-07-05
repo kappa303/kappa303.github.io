@@ -1,0 +1,111 @@
+body{
+    font-family: 'Helvetica','Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+    background-color: #ffffdd;
+ 
+}
+
+nav{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    background-size: cover;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+/*logoimage*/
+#splash{
+    background-image: url(heading.jpg);
+    background-size: cover;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 110px;
+}
+
+h1{font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    
+}
+
+h2{ font-family: 'Helvetica','Arial', sans-serif;
+    font-family: 'Helvetica';
+}
+
+footer{
+     font-family: 'Helvetica','Arial', sans-serif;;
+    font-style: italic;
+    
+}
+
+#foodarticles{
+    padding-top: 04%;
+
+    width: 60%;
+    grid-column-start:1;
+    grid-column-end: 3;
+    margin-left: 35px; 
+
+}
+#foodarticles1{
+    padding-top: 04%;
+    padding-left:03%;
+    width: 80%;
+    grid-column: 1;
+}
+
+.rightSection{
+    grid-column:2;
+    grid-row: 1;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    width: 1000px;
+    height: 300pc;
+}
+
+#container{
+    background-color: #DDCBB1;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    margin: auto;
+    
+}
+
+/* === Layout === */ 
+
+.floatleft{
+    float:left;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding-top:450px; ;
+  
+}
+
+h6{
+    font-size: 100px;
+}
+
+header{
+   position: fixed;
+    width: 1000px;
+    text-align: center;
+}
+
+fix{position: fixed;
+    
+}
